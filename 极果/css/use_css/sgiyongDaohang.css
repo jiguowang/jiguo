@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.mianfei {
+  border-top: 2px solid #d0d0d0;
+  border-bottom: 2px solid #f2f2f2;
+}
+.mianfei .title {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+}
+.mianfei .title_ {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.mianfei .title_ span {
+  display: inline-block;
+  width: 120px;
+  font-size: 20px;
+  margin: 0px 40px;
+  padding: 10px 20px;
+  border-bottom: 5px solid white;
+}
+.mianfei .title_ span a {
+  color: #9a9697;
+}
+.nav {
+  width: 1000px;
+  margin: 20px auto;
+}
+.nav ul {
+  overflow: hidden;
+  margin-left: 120px;
+}
+.nav ul li {
+  float: left;
+  margin-left: 120px;
+}
+.nav ul li a {
+  color: #9a9697;
+}
+#bottom {
+  border-bottom: 5px solid #fc5730;
+}
+.addcl {
+  color: #000;
+}

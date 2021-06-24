@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@cobai: white;
+@coju: #fe5341;
+
+//    大图
+.photo_max {
+  .photo {
+    height: 300px;
+    width: 100%;
+    background: url(../../img/original.jpg) no-repeat center center;
+  }
+  .photo_2 {
+    padding-top: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+    p {
+      color: @cobai;
+    }
+    .photo_2_p1 {
+      font-size: 30px;
+    }
+    .photo_2_p2 {
+      span {
+        display: inline-block;
+        background-color: #f5d097;
+        padding: 5px;
+        margin: 20px 3px;
+      }
+    }
+    .photo_btn {
+      width: 200px;
+      height: 40px;
+      background-color: @coju;
+      color: @cobai;
+      margin-top: 20px;
+      border: @coju;
+      font-size: 20px;
+    }
+  }
+}
+
+//   导航  nav
+nav {
+  width: 100%;
+  background-color: #f0f0f0;
+  .nav {
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    p {
+      height: 60px;
+      width: 40px;
+      margin-top: 20px;
+      border-left: 5px solid @coju;
+      padding-left: 5px;
+      padding-top: 5px;
+      float: left;
+      font-size: 20px;
+    }
+    ul {
+      list-style: none;
+      margin-top: 25px;
+      overflow: hidden;
+      li {
+        float: left;
+        text-align: center;
+        margin-left: 120px;
+        font-size: 12px;
+        a {
+          color: #746165;
+          &:hover {
+            color: @coju;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 正文内容
+.content {
+  width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+  .contentLeft {
+    width: 700px;
+    float: left;
+    .left_t {
+      border-left: 5px solid @coju;
+      padding: 2px 5px;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    .left_tt {
+      color: @coju;
+      font-size: 16px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+  }
+  .introduce {
+    margin-top: 20px;
+  }
+  h4 {
+    margin-top: 30px;
+    color: #0068a2;
+  }
+  img {
+    margin-top: 30px;
+  }
+  .left_try {
+    color: #0384b4;
+    font-size: 14px;
+    margin: 20px 0;
+  }
+  .activity {
+    h4 {
+      color: @coju;
+    }
+    ul {
+      margin-top: 5px;
+      li {
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+//右
+.content {
+  .contentRight {
+    width: 270px;
+    float: left;
+    margin-left: 30px;
+    .right_t {
+      border-left: 5px solid @coju;
+      padding: 2px 5px;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    .right_m {
+      font-size: 30px;
+      color: @coju;
+      margin-top: 20px;
+    }
+    button {
+      width: 270px;
+      height: 40px;
+      background-color: @coju;
+      color: @cobai;
+      margin-top: 20px;
+      border: @coju;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+    .gw {
+      font-size: 12px;
+      width: 270px;
+      text-align: center;
+      margin-top: 3px;
+      color: #666;
+    }
+    .tiyan {
+      font-size: 12px;
+      color: #666;
+      margin: 5px 0;
+    }
+  }
+}
+
+// 试用
+.hot_try {
+  width: 1000px;
+  margin: 20px auto;
+  margin-top: 60px;
+  .hot_t {
+    overflow: hidden;
+    .hot_t_1 {
+      float: left;
+    }
+    .hot_t_2 {
+      float: right;
+      color: @coju;
+      font-size: 14px;
+      background: url(./../../img/readMore.png) no-repeat 60px;
+      padding-right: 20px;
+      a{
+        color: @coju;
+      }
+    }
+  }
+  .hot_list {
+    margin-top: 15px;
+    overflow: hidden;
+    .lis1 {
+      float: left;
+      margin: 0 14px;
+      width: 220px;
+      height: 300px;
+      border-radius: 10px;
+      border: 1px solid #e6e6e6;
+      text-align: center;
+      position: relative;
+
+      img {
+        width: 220px;
+        border-radius: 10px 10px 0 0;
+      }
+      .lis1_p1 {
+        padding: 5px 10px;
+      }
+      span {
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid @coju;
+        font-size: 14px;
+        color: @coju;
+        padding: 3px 10px;
+        margin: 0 5px;
+      }
+      .lis1_p2 {
+        margin-top: 10px;
+        span {
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      .lis1_p3 {
+        color: @coju;
+        margin-top: 5px;
+      }
+      .rigTop {
+        background-color: @coju;
+        color: @cobai;
+        width: 40px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 5px 0 5px;
+      }
+      .exception {
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #81c362;
+        font-size: 14px;
+        color: #81c362;
+        padding: 3px 10px;
+        margin: 0 5px;
+      }
+      .exception_ {
+        color: #81c362;
+      }
+      .rigTop_ {
+        background-color: #fdf8cd;
+        color: #bfad7d;
+        width: 80px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 5px 0 5px;
+      }
+    }
+  }
+}
