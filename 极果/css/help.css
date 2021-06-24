@@ -1,0 +1,59 @@
+.large {
+  overflow: hidden;
+}
+.large .left {
+  float: left;
+  width: 270px;
+  margin-top: 50px;
+  height: 310px;
+  background-color: #f3f3f3;
+}
+.large .left h3 {
+  width: 230px;
+  height: 35px;
+  padding-left: 25px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  line-height: 35px;
+  border-bottom: 1px solid #a3a3a3;
+}
+.large .left dl {
+  margin-bottom: 35px;
+}
+.large .left dt {
+  padding-left: 25px;
+  font-weight: 600;
+}
+.large .left dd {
+  padding-left: 40px;
+  margin-top: 5px;
+}
+.large .large_right {
+  width: 640px;
+  margin-top: 50px;
+  float: right;
+  padding: 35px 30px;
+  background-color: #f3f3f3;
+}
+.large .large_right .right span {
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 35px;
+  border-bottom: 1px solid #a3a3a3;
+}
+.large .large_right .right .h3_frst {
+  border: none;
+}
+.large .large_right .right p {
+  line-height: 25px;
+}
+.large .large_right .right .h4_first {
+  margin: 30px 0px;
+}
+.large .large_right .right .h4_two {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}

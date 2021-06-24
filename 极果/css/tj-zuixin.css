@@ -1,0 +1,212 @@
+nav{
+    width: 100%;
+    height: 167px;
+    /* border: 1px solid red; */
+    background-color: #fff;
+overflow: hidden;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+.dg_zuixin>h1{
+    text-align: center;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+.dg_zuixin>a{
+    display: block;
+    width: 167px;
+    height: 52px;
+    /* border: 1px solid red; */
+    float: left;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 26px;
+    color: #a4abb1;
+}
+
+.dg_zuixin .dd{
+    margin-left: 332px;
+}
+/* .dg_zuixin .dg_first{
+    border-bottom: 3px solid #fd5238 ;
+    color:#fd5238  ;
+} */
+.dg_zuixin>a:hover{
+    border-bottom: 3px solid #fd5238 ;
+    color:#fd5238  ;
+}
+/* 下面的 */
+.bg_zuixin{
+    height: 2530px;
+}
+.bg_left{
+    float: left;
+    height: 2530px;
+    width: 700px;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+}
+.bg_right{
+    float: right;
+    height: 375px;
+    width: 275px;
+    border: 1px solid blue;
+
+}
+.bg_ul{
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: pink; */
+}
+.bg_ul>li{
+    width: 700px;
+    height: 480px;
+    float: left;
+    /* margin-top: 20px; */
+    margin-top: 15px; 
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    position: relative;
+}
+/* 添加图片 */
+.bg_ul li>img{
+    width: 700px;
+    height: 415px;
+    border-radius: 10px;
+}
+/* 添加图片里面的 */
+.bg_ul li>p{
+    position: absolute;
+    width: 700px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.8);
+    bottom: 65px;
+    left: 0px;
+    border-radius:0 0 10px 10px
+
+}
+.bg_ul li .p2{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 25px;
+    /* border: 1px solid red; */
+    /* color: #8da6a3; */
+}
+.bg_ul li .p3{
+    float: left;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    /* border: 1px solid red; */
+    color: red;
+    text-align: right;
+    font-size: 13px;
+}
+.bg_ul li .p4{
+    float: left;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px;
+    /* border: 1px solid r; */
+    /* background-color: aqua; */
+    color: #8da6a3;
+    text-align: right;
+    font-size: 13px;
+}
+.bg_ul li .p5{
+    float: right;
+    width: 25px;
+    margin-top: 30px;
+    margin-right: 5px;
+    background: url(../img/zan.png) no-repeat left;
+    /* background-color: aqua; */
+    color: #8da6a3;
+    text-align: right;
+    font-size: 13px;
+}
+.bg_ul li .p6{
+    float: right;
+    width: 25px;
+    margin-top: 30px;
+    margin-right: 30px;
+    background: url(../img/reply.png) no-repeat left;
+    /* background-color: aqua; */
+    color: #8da6a3;
+    text-align: right;
+    font-size: 13px;
+}
+.bg_ul li .p7{
+    float: left;
+    /* background-color: aqua; */
+    width: 700px;
+    height: 50px;
+    margin-top: 8px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    color: #92918f;
+    border: 1px solid #92918f;
+}
+/* 右边 */
+/* .bg_right_red{
+    width: 6px;
+    height: 33px;
+    background-color: #f75843;
+    float: left;
+}
+.bg_right_ji{
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    font-size: 24px;
+    border: 1px solid red;
+}
+.bg_right img{
+    margin-top: 20px;
+} */
+/* 新的 */
+.content .contentRight {
+    width: 270px;
+    float: left;
+    margin-left: 30px;
+  }
+  .content .contentRight .right_t {
+    border-left: 5px solid #fe5341;
+    padding: 2px 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .content .contentRight .right_m {
+    font-size: 30px;
+    color: #fe5341;
+    margin-top: 20px;
+  }
+  .content .contentRight button {
+    width: 270px;
+    height: 40px;
+    background-color: #fe5341;
+    color: white;
+    margin-top: 20px;
+    border: #fe5341;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .content .contentRight .gw {
+    font-size: 12px;
+    width: 270px;
+    text-align: center;
+    margin-top: 3px;
+    color: #666;
+  }
+  .content .contentRight .tiyan {
+    font-size: 12px;
+    color: #666;
+    margin: 5px 0;
+  }
